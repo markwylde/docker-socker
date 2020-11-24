@@ -1,0 +1,26 @@
+{
+  "name": "docker-socker",
+  "version": "1.0.0",
+  "description": "Create docker networks that forward all traffic to a socks proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/docker-socker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markwylde/docker-socker/issues"
+  },
+  "homepage": "https://github.com/markwylde/docker-socker#readme",
+  "dependencies": {
+    "execa": "^4.1.0",
+    "final-stream": "^2.0.3",
+    "get-port": "^5.1.1",
+    "ndjson-fe": "^1.2.6"
+  }
+}
