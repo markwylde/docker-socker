@@ -21,6 +21,7 @@
     "execa": "^4.1.0",
     "final-stream": "^2.0.3",
     "get-port": "^5.1.1",
-    "ndjson-fe": "^1.2.6"
+    "ndjson-fe": "^1.2.6",
+    "node-named": "file:./node-named"
   }
 }

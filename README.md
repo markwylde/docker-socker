@@ -9,7 +9,7 @@ docker run --net host -dv /var/run/docker.sock:/var/run/docker.sock markwylde/do
 ## Usage
 Create a new network, specifying the socks details as options
 ```bash
-docker network create --driver overlay --opt socks-host=127.0.0.1 --opt socks-port=1080 --opt socks-user=test --opt socks-pass=test example
+docker network create --attachable --driver overlay --opt socks-host=192.168.99.101 --opt socks-port=1080 --opt socks-user=test --opt socks-pass=test example
 ```
 
 Create as many containers as your want, connecting to your new network
