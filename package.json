@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/markwylde/docker-socker#readme",
   "dependencies": {
-    "execa": "^4.1.0",
-    "final-stream": "^2.0.3",
-    "get-port": "^5.1.1",
-    "ndjson-fe": "^1.2.6",
+    "execa": "^6.1.0",
+    "final-stream": "^2.0.4",
+    "get-port": "^6.1.2",
+    "ndjson-fe": "^1.2.10",
     "node-named": "file:./node-named"
   }
 }
